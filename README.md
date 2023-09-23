@@ -3,8 +3,8 @@
 
 ## For Dagshub:
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow \
-MLFLOW_TRACKING_USERNAME=spcCodes \
+MLFLOW_TRACKING_URI=https://dagshub.com/Import-Prem/mlflow_tutorial.mlflow \
+MLFLOW_TRACKING_USERNAME=Import-Prem \
 MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
 python script.py
 
@@ -12,11 +12,11 @@ python script.py
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/Import-Prem/mlflow_tutorial.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=Import-Prem 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=6507fedcf6b4635935da79fd8ef1c1f112b23dd9
 
 
 ```
@@ -71,3 +71,7 @@ mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-23
 export MLFLOW_TRACKING_URI=http://ec2-174-129-109-191.compute-1.amazonaws.com:5000/
 ```
 
+MLFLOW_TRACKING_URI=https://dagshub.com/Import-Prem/mlflow_tutorial.mlflow \
+MLFLOW_TRACKING_USERNAME=Import-Prem \
+MLFLOW_TRACKING_PASSWORD=6507fedcf6b4635935da79fd8ef1c1f112b23dd9 \
+python script.py
